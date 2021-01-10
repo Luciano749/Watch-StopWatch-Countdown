@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/effects-and-animations.css">
+    <link rel="stylesheet" href="/css/countdown.css">
+    <link rel="stylesheet" href="/css/responsive-countdown.css">
+
+    <title>Counter</title>
+</head>
+
+<body id="body">
+
+    <audio id="sound" src="/sounds/audio.mp3"></audio>
+
+    <h1 class="appear" id="title">Contador</h1>
+
+    <div class="appear" id="container">
+
+        <div id="counter">
+
+            <span id="minutesC">00</span>
+            <span id="point">:</span>
+            <span id="secondsC">00</span>
+
+        </div>
+        <!--counter-->
+
+        <div class="appear" id="select-area">
+
+            <div class="appear" id="selectA">
+                <label class="appear" for="selectM">Minutos:</label>
+                <select  class="appear" name="selectM" id="selectM"></select>
+            </div>
+            <!--select-->
+
+            <button class="appear" id="buttonRun">Run</button>
+
+            <div class="appear" id="selectA">
+                <label  class="appear" for="selectS">Segundos:</label>
+                <select class="appear" name="selectS" id="selectS"></select>
+            </div>
+            <!--select-->
+
+        </div>
+        <!--select-area-->
+
+        <div id="button-area">
+            <a href="/index.html" id="link">Relógio</a>
+            <a href="/chronometer.html" id="link">Cronômetro</a>
+        </div><!--button-area-->
+
+    </div>
+    <!--container-->
+
+    <!--javascript-->
+    <script src="/js/countdown.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+@media only screen and (max-width: 350px) {
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+
+    span{
+        font-size: 7rem;
+    }
+
+    #select-area{
+        height: 30%;
+    }
+
+    #selectA{
+        height: min-content;
+    }
+
+    label{
+        font-size: 1.5rem;
+    }
+
+    select{
+        width: 100%;
+
+    }
+
+   #buttonRun{
+       padding: 5% 3%;
+       border-radius: 10%;
+   }
+
+    #link{
+        font-size: 2rem;
+        padding: 2% 9%;
+    }
+}
+
+@media only screen and (min-device-width: 351px) and (max-width: 421px) {
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+
+    span{
+        font-size: 7rem;
+    }
+
+    #select-area{
+        height: 30%;
+    }
+
+    #selectA{
+        height: min-content;
+    }
+
+    label{
+        font-size: 1.5rem;
+    }
+
+    select{
+        width: 100%;
+
+    }
+
+   #buttonRun{
+       padding: 4% 6%;
+       border-radius: 10%;
+   }
+
+    #link{
+        font-size: 2rem;
+        padding: 2% 9%;
+    }
+}
+
+@media only screen and (min-device-width: 422px) and (max-width: 800px){
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+
+    span{
+        font-size: 10rem;
+    }
+
+    #select-area{
+        height: 30%;
+    }
+
+    #selectA{
+        height: min-content;
+    }
+
+    label{
+        font-size: 2rem;
+    }
+
+    select{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+   #buttonRun{
+       padding: 4% 7%;
+       border-radius: 10%;
+   }
+
+    #link{
+        font-size: 2.3rem;
+        padding: 2% 3%;
+    }
+} 
+
+@media only screen and (min-width: 801px) and (max-width: 1280px) {
+    #container{
+        width: 70%;
+        height: 50%;
+    }
+
+    #counter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 50%;
+        width: 100%;
+    }
+    
+    span{
+        font-size: 10rem;
+    }
+
+
+    #select-area{
+        height: 50%;
+
+    }
+
+    #selectA{
+        height: min-content;
+    }
+
+    label{
+        font-size: 3rem;
+    }
+
+    select{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+   #buttonRun{
+       padding: 5% 6%;
+       border-radius: 10%;
+       font-size: 3rem;
+
+   }
+
+   #button-area{
+       height: 50%;
+   }
+
+    #link{
+        font-size: 3rem;
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 3000px) {
+    #counter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 50%;
+        width: 100%;
+    }
+    
+    span{
+        font-size: 10rem;
+    }
+
+
+    #select-area{
+        height: 50%;
+
+    }
+
+    #selectA{
+        height: min-content;
+    }
+
+    label{
+        font-size: 3rem;
+    }
+
+    select{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+   #buttonRun{
+       padding: 4% 5%;
+       border-radius: 10%;
+       font-size: 3rem;
+
+   }
+
+   #button-area{
+       height: 50%;
+   }
+
+    #link{
+        font-size: 3rem;
+        padding: 5%;
+    }
+  }
+

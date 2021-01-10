@@ -1,0 +1,135 @@
+@media only screen and (max-width: 280px){
+    #chronometer-container{
+        height: 55%;
+        width: 91%;
+        border-radius: 1%;
+    }
+
+    span{
+        font-size: 4.3rem;
+    }
+
+    #previous,#next{
+        font-size: 2.5rem;
+        height: 40%;
+        width: 45%;
+    }
+
+    .button{
+        font-size: 2.3rem;
+    }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 350px) {
+    #chronometer-container{
+        height: 55%;
+        width: 91%;
+        border-radius: 1%;
+    }
+
+    span{
+        font-size: 4.5rem;
+    }
+
+    #previous,#next{
+        font-size: 2rem;
+        height: 40%;
+        width: 30%;
+    }
+
+    .button{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-device-width: 351px) and (max-width: 421px) {
+
+   #chronometer-container{
+       height: 55%;
+       width: 90%;
+    }
+    span{
+        font-size: 5rem;
+    }
+
+    #previous,#next{
+        font-size: 1.8rem;
+        height: 70%;
+        width: 40%;
+    }
+
+}
+
+@media only screen and (min-device-width: 422px) and (max-width: 800px){
+    #chronometer-container{
+        height: 55%;
+        width: 90%;
+    }
+
+    span{
+        font-size: 6rem;
+    }
+
+    .button{
+        font-size: 3rem;
+    }
+
+    #previous,#next{
+        font-size: 3rem;
+        width: 35%;
+    }
+
+   
+} 
+
+
+@media only screen and (min-width: 801px) and (max-width: 1500px) {
+    #chronometer-container{
+        width: 75%;
+        height: 70%;
+    }
+
+    span{
+        font-size: 10rem;
+    }
+
+    .button{
+        font-size: 4rem;
+    }
+
+    #previous,#next{
+        font-size: 5rem;
+        width: 35%;
+    }
+
+  }
+
+@media only screen and (min-width: 1501px) and (max-width: 3000px) {
+    #chronometer-title{
+        font-size: 10rem;
+        margin-top: 0;
+    }
+    
+    #chronometer-container{
+        width: 65%;
+        height: 75%;
+
+        border-radius: 2%;
+    }
+    
+    span{
+        font-size: 15rem;
+    }
+
+    .button{
+        font-size: 6rem;
+    }
+
+    #previous,#next{
+        font-size: 6rem;
+
+        height: 70%;
+        width: 30%;
+    }
+
+  }

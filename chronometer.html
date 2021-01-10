@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!--css-->
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/chronometer.css">
+        <link rel="stylesheet" href="/css/effects-and-animations.css">
+        <link rel="stylesheet" href="/css/responsive-stopwatch.css">
+        
+        <title>stopwatch</title>
+    </head>
+
+    <body id="body">
+
+        <h2 class="appear" id="chronometer-title">Cronômetro</h2>
+
+        <div class="appear" id="chronometer-container">
+            
+            <div id="stopwatch">
+
+                <span id="hoursC">00</span>
+                <span id="point">:</span>
+                <span id="minutesC">00</span>
+                <span id="point">:</span>
+                <span id="secondsC">00</span>
+                <span id="point">:</span>
+                <span id="millisC">000</span>
+                
+                
+            </div><!--stopwatch-->    
+
+            <div id="buttons-area">
+
+                <button type="button" id="start" class="button">start</button>
+                <button type="button" id="stop" class="button">stop</button>
+                <button type="button" id="reset" class="button">reset</button>
+
+            </div><!--buttons-->    
+
+            <div id="pg-buttons">
+                <a id="previous" href="/index.html" >Relógio</a>
+                <a href="/countdown.html" id="next">Contador</a>
+            </div><!--pg-buttons-->
+        </div><!--chronometer-container-->
+
+
+        <!--javascript-->
+        <script src="/js/chronometer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+#title{
+    text-align: center;
+    color: white;
+
+    margin-top: 3%;
+    font-size: 5rem;
+}
+
+#container{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(130,130,130,1) 170%);
+    margin: auto;
+    
+    padding: 3%;
+    width: 40%;
+    height: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 5%;
+}
+
+span{
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+#select-area{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#selectA{
+    text-align: center;
+    border-radius: 5%;
+}
+
+label{
+    font-size: 2rem;
+    color: white;
+}
+
+select{
+    padding: 5%;
+    color: white;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+#buttonRun{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    
+    border-radius: 5%;
+
+    cursor: pointer;
+    padding: 2.5% 5%;
+
+    transition: opacity .2s;
+    transition: transform .2s;
+}
+
+#buttonRun:hover{
+    transform: scale(1.05);
+}
+
+#button-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 7%;
+    width: 100%;
+    height: 25%;
+
+}
+
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1%;
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    border-radius: 5%;
+
+    color: white;
+
+    font-size: 2.9rem;
+    font-weight: bolder;
+
+    transition: backgroundColor 200ms;
+    transition: transform .2s;
+}
+
+#link:hover{
+    transform: scale(1.05);
+}
+
+

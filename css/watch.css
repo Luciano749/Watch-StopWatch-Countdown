@@ -1,0 +1,86 @@
+body{
+    transition: background-color 1s;
+
+}
+
+#title{
+    text-align: center;
+    color: white;
+
+    font-size: 5rem;
+}
+
+#container{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(130,130,130,1) 170%);
+    margin: auto;
+    
+    width: 40%;
+    height: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    border-radius: 5%;
+}
+
+#hour-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8rem;
+
+    font-weight: bold;
+}
+
+#img{
+    border-radius: 50%;
+    margin: 1%;
+    
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+#buttons-pg{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+#link{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.5% 5%;
+    border-radius: 3%;
+
+    width: 30%;
+    height: 10%;
+    
+    text-align: center;
+
+    color: white;
+
+    font-size: 2.9rem;
+    font-weight: bolder;
+
+    transition: color 300ms;
+    transition: transform .2s;
+}
+
+#link:hover{
+    cursor: pointer;
+    color: rgb(202, 201, 201);
+
+    transform: scale(1.05);
+}
+
+#link:nth-child(2){
+    margin-top: 1%;
+}

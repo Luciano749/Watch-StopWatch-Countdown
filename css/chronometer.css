@@ -1,0 +1,95 @@
+body{
+    transition: background-color 1s;
+}
+
+#chronometer-title{
+    text-align: center;
+    color: white;
+
+    margin-top: 3%;
+    font-size: 5rem;
+}
+
+#chronometer-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(130,130,130,1) 170%);
+    margin: auto;
+    
+    width: 40%;
+    height: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    border-radius: 5%;
+}
+
+span{
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+#buttons-area{
+    width: 100%;
+    text-align: center;
+}
+
+.button{
+    margin-top: 3%;
+    margin: 0 2%;
+    padding: 2.5% 5%;
+    border-radius: 5%;
+
+    color: white;
+
+    font-size: 2.9rem;
+    font-weight: bolder;
+
+    transition: backgroundColor 200ms;
+    transition: transform .2s;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+#pg-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 7%;
+    width: 100%;
+
+    height: 30%;
+}
+
+#next,#previous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 50%;
+
+    border-radius: 5%;
+
+    color: white;
+
+    font-size: 2.9rem;
+    font-weight: bolder;
+
+    transition: backgroundColor 200ms;
+    transition: transform .2s;
+}
+
+#next:hover,#previous:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
