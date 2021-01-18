@@ -1,31 +1,57 @@
-/*animation class*/
-@keyframes appear{
-    from{
-        opacity: 0;
-    }
-    
-    to{
-        opacity: 1;
-    }
-}
-
-@keyframes up{
-    from{
-        margin-top: 100%;
-    }
-
-    to{
-        margin-top: 3%;
-    }
-}
-
-
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 /*animation class*/
-.appear{
-    animation: appear 200ms;
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-.up{
-    animation: up 200ms;
+@-webkit-keyframes up {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 3%;
+  }
+}
+
+@keyframes up {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 3%;
+  }
+}
+
+/*animation class*/
+.appear {
+  -webkit-animation: appear 200ms;
+  animation: appear 200ms;
+}
+
+.up {
+  -webkit-animation: up 200ms;
+  animation: up 200ms;
 }

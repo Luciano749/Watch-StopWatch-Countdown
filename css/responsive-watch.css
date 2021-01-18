@@ -1,107 +1,111 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media only screen and (max-width: 350px) {
-    #container{
-        height: 55%;
-        width: 85%;
-    }
+  #container {
+    height: 55%;
+    width: 85%;
+  }
 
-    #hour-title{
-        font-size: 2.6rem;
-    }
+  #hour-title {
+    font-size: 2.6rem;
+  }
 
-    #img{
-        width: 50%;
-    }
+  #img {
+    width: 50%;
+  }
 
-    #link{
-        width: 90%;
-        padding: 5% 3%;
-        margin: 0;
-        text-align: center;
-        font-size: 2rem;
-       }
+  #link {
+    width: 90%;
+    padding: 5% 3%;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (min-device-width: 351px) and (max-width: 421px) {
-   #hour-title,span{
-       font-size: 2rem;
-   }
-   #container{
-       height: 55%;
-       width: 100%;
-   }
-   #img{
-       width: 50%;
-   }
+  #hour-title,
+  span {
+    font-size: 2rem;
+  }
+  #container {
+    height: 55%;
+    width: 100%;
+  }
+  #img {
+    width: 50%;
+  }
 
-   #link{
+  #link {
     width: 90%;
     padding: 5% 3%;
     text-align: center;
     font-size: 2rem;
-   }
+  }
 }
 
-@media only screen and (min-device-width: 422px) and (max-width: 800px){
-    #container{
-        height: 55%;
-        width: 75%;
-       
-    }
+@media only screen and (min-device-width: 422px) and (max-width: 800px) {
+  #container {
+    height: 55%;
+    width: 75%;
+  }
 
-    #hour-title{
-        font-size: 4.5rem;
-    }
+  #hour-title {
+    font-size: 4.5rem;
+  }
 
-    #img{
-        width: 45%;
-    }
+  #img {
+    width: 45%;
+  }
 
-    #link{
-        width: 65%;
-        padding: 4% 3%;
-        font-size: 3rem;
-    }
-} 
-
+  #link {
+    width: 65%;
+    padding: 4% 3%;
+    font-size: 3rem;
+  }
+}
 
 @media only screen and (min-width: 801px) and (max-width: 1500px) {
-    #container{
-        width: 85%;
-        height: 70%;
-    }
-
-    #hour-title{
-        font-size: 7rem;
-    }
-
-    #img{
-        width: 20%;
-    }
-
-    #link{
-        font-size: 4rem;
-        padding: 3% 5%;
-    }
-
+  #container {
+    width: 85%;
+    height: 70%;
   }
 
-  @media only screen and (min-width: 1501px) and (max-width: 3000px) {
-    #container{
-        width: 85%;
-        height: 85%;
-    }
-
-    #hour-title{
-        font-size: 6.5rem;
-    }
-
-    #img{
-        width: 20%;
-    }
-
-    #link{
-        font-size: 5rem;
-        padding: 1.2% 5%;
-    }
-
+  #hour-title {
+    font-size: 7rem;
   }
+
+  #img {
+    width: 20%;
+  }
+
+  #link {
+    font-size: 4rem;
+    padding: 3% 5%;
+  }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 3000px) {
+  #container {
+    width: 85%;
+    height: 85%;
+  }
+
+  #hour-title {
+    font-size: 6.5rem;
+  }
+
+  #img {
+    width: 20%;
+  }
+
+  #link {
+    font-size: 5rem;
+    padding: 1.2% 5%;
+  }
+}

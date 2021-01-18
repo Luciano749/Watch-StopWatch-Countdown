@@ -1,86 +1,154 @@
-body{
-    transition: background-color 1s;
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
+body {
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
-#title{
-    text-align: center;
-    color: white;
+#title {
+  text-align: center;
+  color: white;
 
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
-#container{
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(130,130,130,1) 170%);
-    margin: auto;
-    
-    width: 40%;
-    height: 45%;
+#container {
+  background: rgb(255, 255, 255);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(60%, rgba(255, 255, 255, 1)),
+    color-stop(170%, rgba(130, 130, 130, 1))
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(130, 130, 130, 1) 170%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(130, 130, 130, 1) 170%
+  );
+  margin: auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  width: 40%;
+  height: 45%;
 
-    border-radius: 5%;
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+
+  border-radius: 5%;
 }
 
-#hour-title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.8rem;
+#hour-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.8rem;
 
-    font-weight: bold;
+  font-weight: bold;
 }
 
-#img{
-    border-radius: 50%;
-    margin: 1%;
-    
-    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+#img {
+  border-radius: 50%;
+  margin: 1%;
+
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-#buttons-pg{
-    display: flex;
-    flex-direction: column;
+#buttons-pg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
-    justify-content: center;
-    align-items: center;
+  -webkit-box-pack: center;
 
-    width: 100%;
+  -ms-flex-pack: center;
+
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  width: 100%;
 }
 
-#link{
-    display: flex;
+#link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 
-    justify-content: center;
-    align-items: center;
+  -webkit-box-pack: center;
 
-    padding: 2.5% 5%;
-    border-radius: 3%;
+  -ms-flex-pack: center;
 
-    width: 30%;
-    height: 10%;
-    
-    text-align: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 
-    color: white;
+  padding: 2.5% 5%;
+  border-radius: 3%;
 
-    font-size: 2.9rem;
-    font-weight: bolder;
+  width: 30%;
+  height: 10%;
 
-    transition: color 300ms;
-    transition: transform .2s;
+  text-align: center;
+
+  color: white;
+
+  font-size: 2.9rem;
+  font-weight: bolder;
+
+  -webkit-transition: color 300ms;
+
+  -o-transition: color 300ms;
+
+  transition: color 300ms;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  -o-transition: transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
-#link:hover{
-    cursor: pointer;
-    color: rgb(202, 201, 201);
+#link:hover {
+  cursor: pointer;
+  color: rgb(202, 201, 201);
 
-    transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+
+  -ms-transform: scale(1.05);
+
+  transform: scale(1.05);
 }
 
-#link:nth-child(2){
-    margin-top: 1%;
+#link:nth-child(2) {
+  margin-top: 1%;
 }
